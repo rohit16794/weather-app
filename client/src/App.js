@@ -11,16 +11,8 @@ function App() {
 
           <Link to="/" className="navbar-brand">Weather application</Link>
         </nav>
-    <form>
-      <div>
-      <label for="enterLocation">Enter location</label>
-      <input type="text" class="form-control" id="enterLocation" aria-describedby="enterLocationHelp" placeholder="Enter location"/>
-      <p></p>
-      <button type="submit" class="btn btn-success">Submit</button>
-      </div>
-      </form> 
 
-      <Route path="/hello" exact component={GetWeather} />      
+      <Route path="/" exact component={GetWeather} />      
     </Router>
       );
 }
