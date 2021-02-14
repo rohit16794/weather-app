@@ -20,9 +20,9 @@ updateLocation(input) {
         });
 }
 
-// Function to make the API call to get th weather details.
+// Function to make the API call to get the weather details.
 getWeather(input) {
-    console.log("This method is to be implemented:{}", input);
+    input.preventDefault();
 }
 
     render() {
